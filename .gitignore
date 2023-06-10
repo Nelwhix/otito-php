@@ -15,3 +15,7 @@ test/
 
 # PHPUnit cache
 .phpunit.result.cache
+
+# Editor config files
+/.idea
+/.vscode
