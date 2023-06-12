@@ -23,4 +23,11 @@ class CreatesApplicationRequest extends SaloonRequest
     public function __construct(string $appName){
         $this->appName = $appName;
     }
+
+    public function defaultData(): array
+    {
+        return [
+
+        ];
+    }
 }
