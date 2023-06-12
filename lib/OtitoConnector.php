@@ -5,7 +5,6 @@ namespace OpenAPI\Client;
 use Sammyjo20\Saloon\Http\SaloonConnector;
 class OtitoConnector extends SaloonConnector
 {
-
     public function defineBaseUrl(): string
     {
         return "https://api.otito.dev/v1";
@@ -27,5 +26,4 @@ class OtitoConnector extends SaloonConnector
     }
 
     public function __construct(private string $apiKey){}
-
 }
